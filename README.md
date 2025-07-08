@@ -16,40 +16,6 @@ This a decentralized web3.0 version of the Medium application built on the Ether
 * [web3modal](https://github.com/Web3Modal/web3modal)
 * [material ui](https://mui.com/getting-started/installation/)
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-### Prerequisites
-
-Please install or have installed the following:
-* [nodejs](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/)
-* [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) Chrome extension installed in your browser
-* [Ganache](https://trufflesuite.com/ganache/) for local smart contracts deployement and testing
-
-### Initial Setup
-1. Clone the repository and install all the required packages by running:
-   ```sh
-   git clone https://github.com/kaymen99/Decentral-medium.git
-   cd Decentral-medium
-   yarn
-   ```
-2. Private key & Network Urls setup: in the hardhat folder you'll find a .env file, it's used to store all the sensible data/keys like your private key, RPC url for mainnet, rinkeby, kovan... (you get RPC url from services like Infura or Alchemy for free), you can also provide Etherscan api key to allow automatic contracts verifications :
-   ```sh
-    RINKEBY_ETHERSCAN_API_KEY="your etherscan api key"
-    RINKEBY_RPC_URL="https://eth-rinkeby.alchemyapi.io/v2/apiKey"
-    POLYGON_RPC_URL="Your polygon RPC url from alchemy or infura"
-    MUMBAI_RPC_URL="Your mumbai RPC url from alchemy or infura"
-    PRIVATE_KEY="ganahce-private-key"
-   ```
-* <b>IMPORTANT : </b> For the purpose of testing you can just provide the ganache private key and ignore all the other variables.
-
-3. As infura recently removed its free IPFS storage gateway i used `web3.storage` api for storing data into IPFS, this api is as simple as infura it requires the creation of a free account and a new api token which you can do [here](https://web3.storage), when you finish add your api token into the `src/utils/ipfsStorage.js` file:
-   ```js
-    const web3storage_key = "YOUR-WEB3.STORAGE-API-TOKEN";
-   ```
-   
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- Working EXAMPLES -->
 ## How it Works
 
