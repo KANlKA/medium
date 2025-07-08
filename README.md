@@ -5,6 +5,8 @@
 
 This a decentralized web3.0 version of the Medium application built on the Ethereum/Polygon network (or any EVM compatible blockchain), users can create posts and save them directly into the blockchain using IPFS.
 
+![image](https://github.com/user-attachments/assets/70aeeeef-bd80-45f7-a272-cfa3f58d63bf)
+
 ### Built With
 
 * [Solidity](https://docs.soliditylang.org/)
@@ -13,8 +15,6 @@ This a decentralized web3.0 version of the Medium application built on the Ether
 * [ethers.js](https://docs.ethers.io/v5/)
 * [web3modal](https://github.com/Web3Modal/web3modal)
 * [material ui](https://mui.com/getting-started/installation/)
-
-![image](https://github.com/user-attachments/assets/f5d42c4c-a19b-48a3-8143-c1c3fb63c7ba)
 
 <!-- GETTING STARTED -->
 ## Getting Started
