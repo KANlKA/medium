@@ -9,7 +9,7 @@ export const blockchainSlice = createSlice({
             state.value = action.payload
         },
         disconnect: (state) => {
-            state.value = initialData
+            state.value = initialData  
         }
     },
 }
